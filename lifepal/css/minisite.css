@@ -1,0 +1,526 @@
+body {
+    width: 960px;
+    margin: 0 auto;
+}
+
+.header {
+    position: relative;
+    background-image: url('../images/minisite-above-the-fold.jpg');
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 700px;
+    margin: 0 auto;
+}
+
+.aboutmeheader {
+   position: relative;
+   background-image: url('../images/about-me-above-the-fold.png');
+   background-repeat: no-repeat;
+   width: 100%;
+   height: 700px;
+   margin: 0 auto;
+}
+
+.aboutme {
+   margin-top: -500px;
+   float: left;
+   margin-left: 130px;
+   width: 750px;
+   height: 315px;
+   position: relative;
+}
+
+.aboutme li {
+   float: left;
+   width: 255px;
+}
+
+.myname {
+   font-family: 'Montserrat', Helvetica, sans-serif;
+   font-weight: bold;
+   font-size: 40px;
+   color: white;
+   margin-left: 225px;
+   margin-top: 0px;
+   width: 100%;
+   float: left;
+   margin: 0 auto;
+}
+
+.white {
+   color: white;
+}
+
+.contactline {
+   margin: 0 auto;
+   margin-top: 0px;
+   margin-top: -200px;
+   position: relative;
+}
+
+.contact {
+   font-family: 'Montserrat', Helvetica, sans-serif;
+   font-weight: 300;
+   font-size: 15px;
+   color: #66CAF3;
+   height: 40px;
+   width: 440px;
+   margin: 0 auto;
+}
+
+.aboutmepic {
+   margin-top: 0px;
+   margin-right: 30px;
+}
+
+.aboutmetext {
+   width: 350px;
+   float: left;
+   margin-left: 0px;
+   margin-top: 20px;
+   font-family: 'Montserrat', Helvetica, sans-serif;
+   font-weight: 400;
+   font-size: 15px;
+   color: #66CAF3;
+   line-height: 20px;
+}
+
+.devices img {
+    float: right;
+    margin-right: 5px;
+    margin-left: 175px;
+    margin-top: 30px;
+    position: absolute;
+    /*z-index: 3;
+   position: relative;*/
+}
+
+#reviews {
+    background-image: url('../images/reviews-background.png');
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 550px;
+    margin-top: 520px;
+}
+
+.review {
+    font-family: 'Montserrat', Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: white;
+    margin-top: -20px;
+    padding: 0 0;
+    float: left;
+}
+
+#secondpage {
+    width: 940px;
+    height: 700px;
+    background-color: #085C7F;
+    margin-top: -10px;
+}
+
+.bottom {
+    width: 940px;
+    height: 200px;
+    background-color: #085C7F;
+    margin-top: -55px;
+}
+
+.store {
+   float: left;
+   margin-left: 28%;
+}
+
+.store img {
+   float: left;
+}
+
+.nav p {
+   margin: 0px 0px;
+   font-family: 'Montserrat', Helvetica, sans-serif;
+   font-size: 22px;
+   /*color: #085C7F;*/
+}
+
+.nav ul {
+    width: 100%;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.nav li {
+    float: left;
+    margin: 0 auto;
+    padding: 25px 10px;
+}
+
+.nav li:nth-child(2) {
+   position: relative;
+   top: -50px;
+}
+
+.nav {
+   position: absolute;
+    color: white;
+    height: 101px;
+    width: 700px;
+    margin-left: 23.7%;
+    top: 36px;
+}
+
+.nav-wrapper {
+   width: 100%;
+   height: 100px;
+}
+
+.nav-background {
+   position: relative;
+   top: 40px;
+   width: 500px;
+   margin: 0 auto;
+   height: 100px;
+   background-color: #ffffff;
+   opacity: 0.4;
+   border-radius: 80px;
+}
+
+.navtype {
+    font-family: 'Montserrat', Helvetica, sans-serif;
+    font-size: 22px;
+    color: #085C7F;
+}
+
+h2 {
+   font-family: 'Montserrat', Helvetica, sans-serif;
+   font-size: 22px;
+}
+
+a:hover {
+   color: white;
+}
+
+.navtypeselected {
+    font-family: 'Montserrat', Helvetica, sans-serif;
+    font-size: 22px;
+    color: white;
+}
+
+.appstoretop {
+    float: left;
+    margin-left: 80px;
+    margin-bottom: 0px;
+}
+
+.storelinkstop {
+   width: 250px;
+   height: 150px;
+}
+
+.googleplay {
+    float: right;
+    margin-right: -140px;
+    margin-top: -64px;
+    margin-left: 0px;
+}
+
+.nodecoration {
+    list-style-type: none;
+}
+
+h1 {
+    font-family: 'Montserrat', Helvetica, sans-serif;
+    font-weight: Bold;
+    font-size: 50px;
+    width: 360px;
+    margin-left: 80px;
+    margin-top: 100px;
+    color: white;
+}
+
+/*img:nth-of-type(2) {
+    margin-left: 0px;
+}*/
+
+div:nth-of-type(2) {
+    /*width: 940px;
+   height: 700px;
+   background-color: #085C7F;*/
+}
+
+.buttonbar {
+    margin: 0 auto;
+    margin-top: 00px;
+    z-index: 1;
+    position: relative;
+    width: 794px;
+    height: 186px;
+    background-color: #085C7F;
+    border: solid 8px #7AD2F1;
+    border-radius: 15px;
+}
+
+.buttonbar ul {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    float: right;
+    margin: 0 auto;
+}
+
+.buttonbar li {
+    padding: 4px 19.75px;
+    float: left;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    border-left: solid 1px #7AD2F1;
+    line-height: 180px;
+    /*border-right: solid 1px #7AD2F1;*/
+}
+
+
+/*.devices {
+   width: 100%;
+   height: 550;
+}*/
+
+.devices {
+    width: 940px;
+    height: 580px;
+    background-color: #ECEEEE;
+    margin-top: -34px;
+    position: absolute;
+}
+
+
+
+.featuresbox {
+    z-index: 2;
+    width: 725px;
+    height: 332px;
+    background-color: white;
+    border: solid 8px #66CAF3;
+    border-radius: 15px;
+    margin: 0 auto;
+    margin-top: -30px;
+}
+
+.featurestext {
+    width: 42%;
+    padding: 5px 25px;
+    float: left;
+    line-height: 30px;
+
+}
+
+.featurestextright {
+    width: 42%;
+    padding: 22px 25px;
+    float: left;
+    line-height: 30px;
+}
+
+.ianc {
+    float: right;
+    margin-right: 50px;
+    margin-top: 50px;
+    width: 210px;
+    height: 255px;
+}
+
+.ianc img {
+    float: left;
+    padding-left: 25px;
+    margin: 0 auto;
+}
+
+.name {
+    font-family: 'Montserrat', Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    color: white;
+    margin-top: 20px;
+    padding: 0 0;
+    float: left;
+}
+
+.johnnyl {
+    float: right;
+    margin-right: 100px;
+    margin-top: 150px;
+    width: 210px;
+    height: 255px;
+}
+
+.johnnyl img {
+    float: left;
+    padding-left: 25px;
+    margin: 0 auto;
+}
+
+.christiew img {
+    float: left;
+    padding-left: 25px;
+    margin: 0 auto;
+}
+
+.christiew {
+    float: left;
+    margin-top: 75px;
+    margin-left: 50px;
+    width: 210px;
+    height: 25px;
+}
+
+div:nth-of-type(7) {
+    /*width: 940px;
+   height: 250px;
+   background-color: #085C7F;*/
+}
+
+h3 {
+    font-family: 'Montserrat', Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 34px;
+    color: #085C7F;
+    width: 200px;
+    margin-top: 45px;
+    margin-left: 25px;
+    position: relative;
+}
+
+li {
+    font-family: 'Montserrat', Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    color: #085C7F;
+}
+
+h4 {
+    font-family: 'Montserrat', Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 28px;
+    color: #66CAF3;
+    margin-left: 60px;
+    /*margin-top: 0px;*/
+}
+
+h5 {
+    font-family: 'Montserrat', Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: white;
+    margin-left: 43%;
+    margin-top: 100px;
+    position: absolute;
+}
+
+span {
+    font-family: 'Montserrat', Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+#devicestext {
+    font-family: 'Montserrat', Helvetica, sans-serif;
+    font-size: 22px;
+    font-weight: 400;
+    color: #085C7F;
+    margin-left: 25px;
+    width: 250px;
+    position: relative;
+    margin-top: -17px;
+}
+
+/*p {
+    font-family: 'Montserrat', Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: lighter;
+    color: white;
+}*/
+
+.linktome {
+   font-family: 'Montserrat', Helvetica, sans-serif;
+   font-size: 16px;
+   font-weight: 400;
+   color: #66CAF3;
+}
+
+.googleplaybottom {
+   margin-top: 0px;
+}
+
+/*
+#buttontasks {
+  background-image: url('images/tasks-white.png');
+}
+
+#buttontasks:hover {
+  background-image: url('images/tasks-white.png');
+  width:157px;
+  height:157px;
+}
+
+#buttontasks:before {
+  content: url('images/tasks-white.png');
+  width:157px;
+  height:157px;
+  visibility:hidden;
+}
+
+#buttonbudget {
+  background-image: url('images/budget.png');
+  width: 155px;
+  height: 180px;
+  position: relative;
+}
+
+#buttonbudget:before {
+  content: url('images/budget-white.png');
+  float: left;
+  width:155px;
+  height:180px;
+  visibility: hidden;
+  position: absolute;
+}
+
+#buttonbudget:hover {
+    z-index: -1; position: relative;
+  background-image: url('../images/budget-white.png');
+  background-repeat: no-repeat;
+  visibility: visible;
+  width: 155px;
+  height: 180px;
+  vertical-align: middle;
+}
+
+#buttonideas {
+  background-image: url('images/ideas-white.png');
+}
+
+#buttonideas:before {
+  content: url('images/ideas-white.png');
+  float: left;
+  width:0;
+  height:0;
+  visibility:hidden;
+}
+
+#buttonideas:hover {
+  background-image: url('images/ideas-white.png');
+}
+
+#buttonawards {
+  background-image: url('images/awards-white.png');
+}
+
+#buttonawards:before {
+  content: url('images/awards-white.png');
+  width:0;
+  height:0;
+  visibility:hidden;
+}
+
+#buttonawards:hover {
+  background-image: url('images/awards-white.png');
+}
+*/
